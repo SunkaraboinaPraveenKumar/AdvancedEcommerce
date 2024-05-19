@@ -12,8 +12,11 @@ const CartPage = () => {
         const storedCartItems = JSON.parse(localStorage.getItem('cart')) || [];
         setCartItems(storedCartItems);
     }, []);
-
+    
     const calculateTotalPrices = (item) => {
+        if(item.quantity==0){
+            item.quantity=1
+        }
         return item.price * item.quantity;
     };
 
