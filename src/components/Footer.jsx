@@ -9,7 +9,7 @@ const tweetTitle = "Recent Tweets";
 const addressList = [
     {
         iconName: 'icofont-google-map',
-        text: ' New York, USA.',
+        text: ' Hyderabad, Telangana, India.',
     },
     {
         iconName: 'icofont-phone',
@@ -106,11 +106,11 @@ const quickList = [
 const tweetList = [
     {
         iconName: 'icofont-twitter',
-        desc: <p>Aminur islam <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Praveen Kumar<a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
     {
         iconName: 'icofont-twitter',
-        desc: <p>Somrat islam <a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>Kumar Sunkaraboina<a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
 ]
 

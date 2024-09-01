@@ -68,7 +68,7 @@ const CartPage = () => {
     }, 0);
 
     const orderTotal = cartSubTotal;
-
+    // console.log(cartItems);
     return (
         <div>
             <PageHeader title="Shop Cart" currPage="Cart Page" />

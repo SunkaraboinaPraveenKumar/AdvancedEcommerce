@@ -60,16 +60,14 @@ const HomeCategory = () => {
                 <Link to="/shop" className='category-item'>
                   <div className='category-inner'>
                     <div className='category-thumb'>
-                      {/* image thumb nail */}
-                      <img src={val.imgUrl} alt='' />
+                      {/* image thumbnail */}
+                      <img src={val.imgUrl} alt={val.imgAlt} />
                     </div>
                     <div className='category-content'>
                       <div className='cate-icon'>
                         <i className={`${val.iconName}`}></i>
                       </div>
-                      <Link to='/shop'>
-                        <h6>{val.title}</h6>
-                      </Link>
+                      <h6>{val.title}</h6> {/* Removed inner Link */}
                     </div>
                   </div>
                 </Link>
